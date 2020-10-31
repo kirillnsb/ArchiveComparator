@@ -4,9 +4,9 @@ Only zip files can be compared.
 
 All task requirements are completed.
 
-Result legend:
-- deletedFile
-* updatedFile
-? supposedly renamedFile
-+ newFile
- = sameFile
+Result legend:<br>
+(-) deletedFile<br>
+(*) updatedFile<br>
+(?) supposedly renamedFile<br>
+(+) newFile<br>
+(=) sameFile<br>
