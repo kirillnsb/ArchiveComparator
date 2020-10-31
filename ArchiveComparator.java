@@ -34,7 +34,7 @@ public class ArchiveComparator {
         this.archive2Files = archive2Files;
     }
 
-    private String compare() throws IOException {
+    private String compare() {
         String res = "   " + FileWorker.getFileName(archive1Path) + "  |  " + FileWorker.getFileName(archive2Path) + "\n\n";
         ArchiveComparator a1 = null;
         ArchiveComparator a2 = null;
