@@ -39,7 +39,8 @@ public class FileWorker {
      *
      * @param pathname path to archive
      * @return a List containing ArchiveComparator objects by scanning zip-archive
-     * @throws IOException and as a case FileNotFoundException
+     * @throws IOException as usual IOException cause
+     * @throws FileNotFoundException as usual case of FileNotFoundException
      */
     public static List<ArchiveComparator> scanArchive(String pathname) throws IOException {
         int index;

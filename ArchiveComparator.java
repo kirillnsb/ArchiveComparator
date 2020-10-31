@@ -67,7 +67,6 @@ public class ArchiveComparator {
             if (a2.newFileFlag)
                 res += "\t\t  |  " + "+ " + a2.name;                //new case
         }
-
         System.out.println(res);
         return res;
     }
@@ -96,6 +95,5 @@ public class ArchiveComparator {
             String archive2Path = FileWorker.openFileChooser("Select archive 2");
             ac = new ArchiveComparator(archive1Path, archive2Path);
         }
-
     }
 }
