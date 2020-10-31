@@ -10,3 +10,5 @@ Result legend:<br>
 (?) supposedly renamedFile<br>
 (+) newFile<br>
 (=) sameFile<br>
+<br>
+The FileWorker.scanArchive method has a Java-doc comment.
