@@ -5,8 +5,8 @@ Only zip files can be compared.
 All task requirements are completed.
 
 Result legend:
-\- deletedFile
+- deletedFile
 * updatedFile
 ? supposedly renamedFile
 + newFile
-= sameFile
+ = sameFile
